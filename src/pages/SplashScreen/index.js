@@ -1,8 +1,13 @@
 import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
+import React, {useEffect} from 'react';
 import {ILLogo} from '../../assets/illustrations';
 
-const SpalshScreen = () => {
+const SpalshScreen = ({navigation}) => {
+  useEffect(() => {
+    setTimeout(() => {
+      navigation.replace('GetStarted');
+    }, 5000);
+  }, [navigation]);
   return (
     <View style={styles.backroundsplash}>
       <ILLogo />

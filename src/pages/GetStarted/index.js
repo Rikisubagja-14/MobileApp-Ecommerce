@@ -1,9 +1,9 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {ILLogo2} from '../../assets/illustrations';
-import {Button} from '../../components';
+import {Button, Gap} from '../../components';
 
-const GetStated = () => {
+const GetStated = ({navigation}) => {
   return (
     <View style={styles.page}>
       <ILLogo2 />
@@ -14,9 +14,16 @@ const GetStated = () => {
         </Text>
       </View>
       <View>
-        <Button title="Get Started" />
-        <View style={{height: 10}} />
-        <Button type="secondary" title="Sign In" />
+        <Button
+          title="Get Started"
+          onPress={() => navigation.navigate('Register')}
+        />
+        <Gap height={8} />
+        <Button
+          type="secondary"
+          title="Sign In"
+          onPress={() => navigation.replace('Login')}
+        />
       </View>
     </View>
   );
