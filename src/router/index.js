@@ -4,6 +4,7 @@ import React from 'react';
 import BottomNavigator from '../components/molecules/BottomNavigator';
 import {
   Chat,
+  Chatting,
   GetStated,
   Home,
   Login,
@@ -57,6 +58,11 @@ const Router = () => {
         name="MainApp"
         options={{headerShown: false}}
         component={MainApp}
+      />
+      <Stack.Screen
+        name="Chatting"
+        options={{headerShown: false}}
+        component={Chatting}
       />
     </Stack.Navigator>
   );

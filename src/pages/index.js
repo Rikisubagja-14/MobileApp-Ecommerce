@@ -6,4 +6,15 @@ import UploadPhoto from './UploadPhoto';
 import Chat from './Chat';
 import Home from './Home';
 import Profile from './Profile';
-export {Spalsh, GetStated, Register, Login, UploadPhoto, Chat, Home, Profile};
+import Chatting from './Chatting';
+export {
+  Spalsh,
+  GetStated,
+  Register,
+  Login,
+  UploadPhoto,
+  Chat,
+  Home,
+  Profile,
+  Chatting,
+};

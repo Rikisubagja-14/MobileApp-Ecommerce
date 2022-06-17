@@ -8,6 +8,12 @@ import IcMessages from './Ic_Message.svg';
 import IcMessagesActive from './Ic_Message_active.svg';
 import IcProfiletab from './Ic_Profile.svg';
 import IcProfileActive from './ic_Profile_active.svg';
+import IcEditProfile from './ic_edit_profile.svg';
+import IcLanguage from './ic_language.svg';
+import IcRateEditProfile from './ic_rate_editprofile.svg';
+import IcCenter from './ic_center.svg';
+import IcNext from './ic_next.svg';
+import IconRemovePhoto from './ic_remove_photo.svg';
 export {
   IcBackDark,
   IcBackLight,
@@ -19,4 +25,10 @@ export {
   IcMessagesActive,
   IcProfiletab,
   IcProfileActive,
+  IcEditProfile,
+  IcLanguage,
+  IcRateEditProfile,
+  IcCenter,
+  IcNext,
+  IconRemovePhoto,
 };
