@@ -59,6 +59,12 @@ const Home = () => {
                 model="COURT VISION 2.0"
                 price="$58,67"
               />
+              <PopularProduct
+                source={S1}
+                title="Hiking"
+                model="COURT VISION 2.0"
+                price="$58,67"
+              />
             </View>
           </ScrollView>
         </View>
