@@ -35,6 +35,12 @@ const Home = () => {
               <TabHeader title="Training" />
               <TabHeader title="Basketball" />
             </View>
+            <View style={styles.tabsver}>
+              <TabHeader title="All Shoes" />
+              <TabHeader title="Running" />
+              <TabHeader title="Training" />
+              <TabHeader title="Basketball" />
+            </View>
           </ScrollView>
         </View>
         <Text style={styles.nameproduct}>Popular Products</Text>
